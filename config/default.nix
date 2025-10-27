@@ -6,6 +6,8 @@
   imports = [
     ./lang.nix
     ./diagnostic.nix
+    ./option.nix
+    ./plugin/default.nix
   ];
 
   vim = {
